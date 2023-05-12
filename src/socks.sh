@@ -24,6 +24,7 @@ _socks_info() {
 	echo
 	echo -e "$yellow socks链接 = ${cyan}socks5://${socks_username}:${socks_userpass}@${ip}:${socks_port}$none"
 	v2ray get
+	reboot
 }
 _socks_main() {
 	if [[ $socks ]]; then
